@@ -175,38 +175,43 @@ These KPIs provided a structured foundation for discovering trends, identifying 
 👉 [View interactive dashboards here](https://app.powerbi.com/) 
 
 1. Sales Performance: How do we increase sales and ensure product variety?
-- Between Sep 2016 and Aug 2018, the platform recorded a total of R$15.4M in sales across 113K products, with a solid AOV (Average Order Value) of R$159.85 and an outstanding Order Fulfillment Rate of 97.02%.
-- The most significant sales spike occurred in November 2017, where monthly sales exceeded R$1M for the first time, clearly indicating the impact of Black Friday campaigns.
-- Sales were geographically concentrated, with São Paulo (CE) alone generating over R$266K, followed by Pernambuco (PE) (R$212K) and Paraná (PR) (R$181K).
-- The platform supports a diverse product catalog (74 categories), and top categories such as Health & Beauty, Watches & Gifts, and Bed & Bath consistently outperformed others.
+•	Between Sep 2016 and Aug 2018, the platform recorded a total of R$15.4M in sales across 113K products, with a solid AOV (Average Order Value) of R$159.85 and an outstanding Order Fulfillment Rate of 97.02%.
+•	The most significant sales spike occurred in November 2017, where monthly sales exceeded R$1M for the first time, clearly indicating the impact of Black Friday campaigns.
+•	Sales were geographically concentrated, with São Paulo (CE) alone generating over R$266K, followed by Pernambuco (PE) (R$212K) and Paraná (PR) (R$181K).
+•	The platform supports a diverse product catalog (74 categories), and top categories such as Health & Beauty, Watches & Gifts, and Bed & Bath consistently outperformed others.
 •	Category-level growth (e.g., Telephony from 57.93K → 63.07K) shows healthy consumer demand diversification, supporting product variety without relying on underperforming items.
+
 ✅ Insight:
 A clear sales peak aligns with known seasonal patterns (e.g., Black Friday), emphasizing the importance of campaign-driven traffic.
 Additionally, maintaining high-performing categories while filtering low-ROI inventory supports a balanced product strategy.
-________________________________________
+
+
 2. Seller Analysis: How can we support sellers to stay active and sell consistently?
 •	The marketplace consisted of 3,095 active sellers, classified into regular, volume_premium, and highend_premium types.
 •	Volume_premium sellers had the most reliable performance:
-o	Consistent selling rate: 98.70%
-o	Dormancy rate: only 3.9%
-o	High presence in fast-moving categories like Bed & Bath and Sports & Leisure
+  o	Consistent selling rate: 98.70%
+  o	Dormancy rate: only 3.9%
+  o	High presence in fast-moving categories like Bed & Bath and Sports & Leisure
 •	Highend_premium sellers specialized in Furniture & Decor, with AOV above R$250, but showed slightly lower consistency (86.84%) and 13.16% dormancy rate, potentially due to niche product cycles.
-•	In contrast, regular sellers suffered from both low consistency (27.37%) and high dormancy (32.59%), suggesting a lack of engagement or operational capacity.
+•	In contrast, regular sellers suffered from both low consistency (27.37%) and high dormancy (32.59%), suggesting lack of engagement or operational capacity.
 •	Seller distribution was heavily centralized in SP, indicating a potential need to diversify supply-side participation across regions.
+
 ✅ Insight:
 Consistent and active sellers are clearly concentrated in premium segments. Support programs (incentives, logistics, visibility) should prioritize regular sellers to reduce dormancy and increase platform reliability.
-________________________________________
+
+
 3. Customer Behavior: Who are the customers, and how can we improve retention?
 •	The platform attracted 99K unique customers, mostly from SP (41.7K), RJ (12.8K), and MG (11.6K).
 •	Average order value per customer was R$141.61, slightly below the global AOV.
 •	Only 3.00% of customers repurchased, showing weak retention.
-o	However, users who left a review had a 57% higher repurchase rate (3.82% vs 2.43%) — signaling that engagement through feedback loops impacts loyalty.
+  o	However, users who left a review had a 57% higher repurchase rate (3.82% vs 2.43%) — signaling that engagement through feedback loops impacts loyalty.
 •	Customers were segmented into five types:
-o	heavy_regular, volume_premium, highend_premium, one_time_highend, and regular
+  o	heavy_regular, volume_premium, highend_premium, one_time_highend, and regular
 •	Premium segments leaned toward high-end categories like Health & Beauty, Watches, and Decor, while regular customers had broader distribution across products.
 •	Monthly active users steadily increased from <1K in late 2016 to ~6K in early 2018, indicating organic platform growth.
+
 ✅ Insight:
-Retention is a core challenge. Integrating incentives for feedback, loyalty campaigns, and personalizing product recommendations based on past behavior could significantly improve repurchase behavior, especially for regular or dormant users.
+Retention is a core challenge. Integrating incentives for feedback, loyalty campaigns, and personalizing product recommendations based on past behavior could significantly improve repurchase behavior — especially for regular or dormant users.
 
 
 ---
