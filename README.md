@@ -34,9 +34,9 @@ This project’s problem statement focuses on **analyzing the behavioral pattern
 ---
 
 ## Tools Used
-**MySQL** – Main tool for data wrangling, exploratory analysis, and KPI calculation  
-**Python (Pandas, Matplotlib, Seaborn)** – Used for initial data understanding and visual exploration (e.g., missing values, distribution plots, correlation heatmap)  
-**Power BI** – Used for interactive dashboard development and presenting key insights
+- **MySQL** – Main tool for data wrangling, exploratory analysis, and KPI calculation  
+- **Python (Pandas, Matplotlib, Seaborn)** – Used for initial data understanding and visual exploration (e.g., missing values, distribution plots, correlation heatmap)  
+- **Power BI** – Used for interactive dashboard development and presenting key insights
 
 ---
 
@@ -50,7 +50,9 @@ This **real-world dataset**, collected from a large-scale e-commerce platform be
 
 👉 [Original dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-Below is the Entity Relationship Diagram (ERD) of the cleaned dataset used in this project. Unused tables like geolocation were excluded, and category translations were merged into the products table.
+Unused tables such as geolocation were excluded for clarity. The product_category_name_translation table was not used as a separate entity, but its data was fully merged into the products table to include English category names.
+Additionally, the order_reviews table was cleaned to remove duplicated or incomplete entries, and its primary key was redefined from a composite of review_id and order_id to a single unique key: review_id.
+
 
 ![ERD](./assets/ERD.png)
 
@@ -69,43 +71,39 @@ By uncovering behavioral patterns across customers and sellers, the project offe
 ---
 
 ## Working Process
-This project followed a structured approach:
+This project followed a structured approach to explore, clean, and analyze the Brazilian e-commerce dataset from Olist. The overall process was divided into four major phases:
 
-1. **Data Understanding**: Relationship analysis, ERD creation
-2. **Exploratory Data Analysis**: Behavioral trend tracking (SQL, Python)
-3. **Data Wrangling**: Anomaly removal, value standardization
-4. **Insight Generation**: KPI design, segmentation, and dashboards
+**1. Data Understanding**
+I began by examining the nine tables provided, analyzing their relationships and business context. An Entity-Relationship Diagram (ERD) was created to visualize key connections among orders, customers, sellers, products, and payments. This helped clarify how each user group (customers and sellers) interacts with the platform and with each other.
+
+**2. Exploratory Data Analysis (EDA)**
+Using Python (Pandas and Matplotlib) and MySQL, I conducted an in-depth analysis of trends such as sales distribution over time, popular product categories, and payment behavior. EDA also helped in identifying patterns and potential segmentation opportunities across both sellers and customers.
+
+**3. Data Wrangling**
+To ensure data reliability and consistency, I performed various cleaning steps such as handling missing values, removing time-sequence anomalies and records violating business logic, merging related tables, and standardizing city names and product categories. This stage was critical to prepare the data for accurate KPI calculations and further analysis.
+
 
 👉 [View notebooks here](https://github.com/ichbinhyun/olist-behavioral-analytics/tree/main)
+
+Each of these steps laid the foundation for defining KPIs, deriving behavioral insights, and formulating actionable recommendations for both customer engagement and seller performance enhancement.
 
 ---
 
 ## User Segmentation
 ### Customer Segments
-| Segment              | Criteria Summary                                                                                 |
-|----------------------|--------------------------------------------------------------------------------------------------|
-| High-End Premium     | ≥2 purchases, ≥$1000 total spend, AOV ≥ $251.68, ≥70% from premium sellers                       |
-| Volume Premium       | ≥2 purchases, ≥$700 total spend, less AOV or <70% premium sellers                                 |
-| Heavy Regular        | ≥5 purchases or ≥$500 spend, <30% premium seller concentration                                    |
-| One-Time High-End    | 1 purchase, ≥$1000 spend, AOV ≥ $251.68, ≥70% premium sellers                                     |
-| Regular              | All others                                                                                       |
 
-### Seller Segments
-| Segment           | Criteria Summary                                                               |
-|-------------------|----------------------------------------------------------------------------------|
-| High-End Premium  | Top 5% by total sales and upper half by AOV                                     |
-| Volume Premium    | Top 5% by total sales and lower half by AOV                                     |
-| Regular Sellers   | All other sellers                                                               |
+
+### Seller Segmentation
+
 
 ---
 
 ## KPI Definition
-| Category     | KPI Description                                           |
-|--------------|-----------------------------------------------------------|
-| Sales        | AOV, Order Fulfillment Rate, Regional Trends, Category Growth |
-| Sellers      | Consistency Rate, Dormancy Rate, Top Categories per Seller   |
-| Customers    | Repurchase Rate, Review Repurchase Gap, Payment Behavior     |
-| Operational  | Total Products Sold, Review Response Time                    |
+To evaluate user behavior and platform performance, I established a set of Key Performance Indicators (KPIs) aligned with the problem statements. These KPIs are categorized into three areas: **Sales, Sellers, and Customers.**
+Each metric was designed to offer actionable insights for platform growth, user engagement, and business optimization.
+
+
+These KPIs provided a structured foundation for discovering trends, identifying pain points, and developing data-driven recommendations tailored to Olist’s dual-sided platform model.
 
 ---
 
@@ -114,27 +112,70 @@ This project followed a structured approach:
 ![Seller Dashboard](./assets/seller_dashboard.PNG)  
 ![Customer Dashboard](./assets/customer_dashboard.PNG)
 
-👉 [View interactive dashboards here](https://app.powerbi.com/)  *(replace with your public Power BI link)*
+👉 [View interactive dashboards here](https://app.powerbi.com/) 
 
-(Include your full findings here, as written in your report.)
+1. Sales Performance: How do we increase sales and ensure product variety?
+- Between Sep 2016 and Aug 2018, the platform recorded a total of R$15.4M in sales across 113K products, with a solid AOV (Average Order Value) of R$159.85 and an outstanding Order Fulfillment Rate of 97.02%.
+- The most significant sales spike occurred in November 2017, where monthly sales exceeded R$1M for the first time, clearly indicating the impact of Black Friday campaigns.
+- Sales were geographically concentrated, with São Paulo (CE) alone generating over R$266K, followed by Pernambuco (PE) (R$212K) and Paraná (PR) (R$181K).
+- The platform supports a diverse product catalog (74 categories), and top categories such as Health & Beauty, Watches & Gifts, and Bed & Bath consistently outperformed others.
+•	Category-level growth (e.g., Telephony from 57.93K → 63.07K) shows healthy consumer demand diversification, supporting product variety without relying on underperforming items.
+✅ Insight:
+A clear sales peak aligns with known seasonal patterns (e.g., Black Friday), emphasizing the importance of campaign-driven traffic.
+Additionally, maintaining high-performing categories while filtering low-ROI inventory supports a balanced product strategy.
+________________________________________
+2. Seller Analysis: How can we support sellers to stay active and sell consistently?
+•	The marketplace consisted of 3,095 active sellers, classified into regular, volume_premium, and highend_premium types.
+•	Volume_premium sellers had the most reliable performance:
+o	Consistent selling rate: 98.70%
+o	Dormancy rate: only 3.9%
+o	High presence in fast-moving categories like Bed & Bath and Sports & Leisure
+•	Highend_premium sellers specialized in Furniture & Decor, with AOV above R$250, but showed slightly lower consistency (86.84%) and 13.16% dormancy rate, potentially due to niche product cycles.
+•	In contrast, regular sellers suffered from both low consistency (27.37%) and high dormancy (32.59%), suggesting a lack of engagement or operational capacity.
+•	Seller distribution was heavily centralized in SP, indicating a potential need to diversify supply-side participation across regions.
+✅ Insight:
+Consistent and active sellers are clearly concentrated in premium segments. Support programs (incentives, logistics, visibility) should prioritize regular sellers to reduce dormancy and increase platform reliability.
+________________________________________
+3. Customer Behavior: Who are the customers, and how can we improve retention?
+•	The platform attracted 99K unique customers, mostly from SP (41.7K), RJ (12.8K), and MG (11.6K).
+•	Average order value per customer was R$141.61, slightly below the global AOV.
+•	Only 3.00% of customers repurchased, showing weak retention.
+o	However, users who left a review had a 57% higher repurchase rate (3.82% vs 2.43%) — signaling that engagement through feedback loops impacts loyalty.
+•	Customers were segmented into five types:
+o	heavy_regular, volume_premium, highend_premium, one_time_highend, and regular
+•	Premium segments leaned toward high-end categories like Health & Beauty, Watches, and Decor, while regular customers had broader distribution across products.
+•	Monthly active users steadily increased from <1K in late 2016 to ~6K in early 2018, indicating organic platform growth.
+✅ Insight:
+Retention is a core challenge. Integrating incentives for feedback, loyalty campaigns, and personalizing product recommendations based on past behavior could significantly improve repurchase behavior, especially for regular or dormant users.
+
 
 ---
 
 ## Actionable Suggestions
-1. **Boost Repurchase via Review-Based Loyalty Campaigns**
-   - CRM campaign for reviewers → 57% higher retention rate
-   - Small incentive = high return with low CAC
+1. Boost Repurchase via Review-Based Loyalty Campaigns
+Why it’s #1: Directly solves low retention (3%) and is super low-cost to implement via CRM.
+•	Customers who left a review were 57% more likely to return.
+•	Run a “Review & Save” email campaign: small voucher or discount for those who leave feedback.
+•	Automate this in CRM flows post-delivery.
+👉 Impact: Increases both retention and review volume without increasing CAC.
+________________________________________
+2. Reactivate Dormant Sellers with Incentivized Re-entry
+Why it’s #2: 1/3 of regular sellers are dormant. They're already onboarded = cheap win.
+•	32.59% dormancy rate among regular sellers.
+•	Launch a reactivation program:
+o	30-day zero commission
+o	dashboard badge (e.g., “Returning Seller”)
+o	email nudges via seller CRM
+👉 Impact: Converts silent sellers into active inventory without new seller acquisition cost.
+________________________________________
+ 3. Leverage Seasonal Trends like Black Friday with Targeted Category Promotions
+Why it’s #3: The highest platform sales ever (R$1M+) came from November 2017 = proven ROI.
+•	Focus Q4 campaigns on top-converting categories (e.g., Health & Beauty, Watches & Gifts).
+•	Build seasonal landing pages, bundles, or curated picks with seller co-promotion.
+👉 Impact: Drives predictable sales spikes with minimal trial-and-error.
 
-2. **Reactivate Dormant Sellers with Incentives**
-   - Target 32.59% dormant sellers
-   - 0% commission for 30 days + dashboard badge + email flow
-
-3. **Seasonal Campaigns on Top Categories**
-   - Black Friday = R$1M+ month
-   - Repeat strategy with curated Q4 category bundles
 
 ---
 
 ## Conclusion
 This project applied behavioral analytics to a real-world e-commerce dataset to uncover key insights around customer retention, seller performance, and sales dynamics. By aligning data-driven segmentation and KPIs with targeted business actions, the analysis provides a practical roadmap for improving engagement and growth on a dual-sided marketplace like Olist.
-
