@@ -59,7 +59,7 @@ Additionally, the order_reviews table was cleaned to remove duplicated or incomp
 ---
 
 ## Audience
-This analysis is primarily intended for the Marketing and Customer Relationship Management (CRM) teams at Olist.
+This analysis is primarily intended for the **Marketing and Customer Relationship Management (CRM) teams** at Olist.
 
 By uncovering behavioral patterns across customers and sellers, the project offers actionable insights that can support strategic decision-making in areas such as:
 
@@ -77,10 +77,10 @@ This project followed a structured approach to explore, clean, and analyze the B
 I began by examining the nine tables provided, analyzing their relationships and business context. An Entity-Relationship Diagram (ERD) was created to visualize key connections among orders, customers, sellers, products, and payments. This helped clarify how each user group (customers and sellers) interacts with the platform and with each other.
 
 **2. Exploratory Data Analysis (EDA)**
-Using Python (Pandas and Matplotlib) and MySQL, I conducted an in-depth analysis of trends such as sales distribution over time, popular product categories, and payment behavior. EDA also helped in identifying patterns and potential segmentation opportunities across both sellers and customers.
+Using Python (Pandas, Matplotlib, Seaborn) and MySQL, I conducted an **in-depth analysis of trends** such as sales distribution over time, popular product categories, and payment behavior. EDA also helped in identifying patterns and potential segmentation opportunities across both sellers and customers.
 
 **3. Data Wrangling**
-To ensure data reliability and consistency, I performed various cleaning steps such as handling missing values, removing time-sequence anomalies and records violating business logic, merging related tables, and standardizing city names and product categories. This stage was critical to prepare the data for accurate KPI calculations and further analysis.
+To ensure data reliability and consistency, I performed various cleaning steps such as **handling missing values, removing time-sequence anomalies and records violating business logic, merging related tables, and standardizing product categories**. This stage was critical to prepare the data for accurate KPI calculations and further analysis.
 
 
 👉 [View notebooks here](https://github.com/ichbinhyun/olist-behavioral-analytics/tree/main)
@@ -90,10 +90,23 @@ Each of these steps laid the foundation for defining KPIs, deriving behavioral i
 ---
 
 ## User Segmentation
-### Customer Segments
+### 1. Customer Segmentation
+Customers were segmented into six distinct groups using rule-based thresholds derived from the data. The segmentation criteria considered **order frequency, total spending, average order value (AOV), and purchasing concentration toward high-performing sellers**. These indicators were selected to reflect purchasing power, loyalty, and product affinity.
 
 
-### Seller Segmentation
+| Segment Name         | Criteria                                                                                       | Reasoning                                                                                                           |
+|----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| High-End Premium     | ≥ 2 purchases, ≥ $1000 total spend, AOV ≥ $251.68, ≥ 70% from purchases from premium sellers   | Represents loyal and high-spending customers who prefer premium-quality products and consistently shop from top-tier sellers. |
+| Volume Premium       | ≥ 2 purchases, ≥ $700 total spend, lower AOV or < 70% from premium seller purchases            | Frequent buyers with considerable spending, but less focus on premium sellers or high-end items.                   |
+| Heavy Regular        | ≥ 5 purchases or ≥ $500 spend, < 30% from premium seller purchases                             | Highly active customers, but mainly engaged with general or budget sellers — possibly deal-seekers.               |
+| One-Time High-End    | 1 purchase, ≥ $1000 spend, AOV ≥ $251.68, ≥ 70% premium seller purchases                       | First-time buyers with high-value transactions; potential for conversion into loyal high-end customers.           |
+| Regular              | Everyone else not matching the above segments                                                  | General customer base with varied but less consistent or high-value behavior.                                      |
+
+The thresholds (e.g., AOV = $251.68) were based on statistical benchmarks such as the average AOV (×2), total spend percentiles, and purchase distribution across premium vs. general sellers
+
+### 2. Seller Segmentation
+
+
 
 
 ---
