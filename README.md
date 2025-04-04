@@ -179,10 +179,10 @@ These KPIs provided a structured foundation for discovering trends, identifying 
 ### 1. Sales Performance: How do we increase sales and ensure product variety?
 
 - Between Sep 2016 and Aug 2018, the platform recorded a total of **R$15.4M** in sales across **113K products**, with a solid **AOV (Average Order Value)** of **R$159.85** and an outstanding **Order Fulfillment Rate** of **97.02%**.
-- The most significant sales spike occurred in **November 2017**, where monthly sales exceeded **R$1M** for the first time — clearly indicating the impact of **Black Friday campaigns**.
+- The most significant sales spike occurred in **November 2017**, where monthly sales exceeded **R$1M** for the first time, clearly indicating the impact of **Black Friday campaigns**.
 - Sales were geographically concentrated, with **São Paulo (CE)** alone generating over **R$266K**, followed by **Pernambuco (PE)** (R$212K) and **Paraná (PR)** (R$181K).
 - The platform supports a **diverse product catalog (74 categories)**, and top categories such as **Health & Beauty**, **Watches & Gifts**, and **Bed & Bath** consistently outperformed others.
-- Category-level growth (e.g., **Telephony** from 57.93K → 63.07K) shows healthy **consumer demand diversification** — supporting product variety without relying on underperforming items.
+- Category-level growth (e.g., **Telephony** from 57.93K → 63.07K) shows healthy **consumer demand diversification**, supporting product variety without relying on underperforming items.
 
 **✅ Insight:**  
 A clear sales peak aligns with known seasonal patterns (e.g., **Black Friday**), emphasizing the importance of **campaign-driven traffic**.  
@@ -226,27 +226,37 @@ Integrating **incentives for feedback**, launching **loyalty campaigns**, and **
 ---
 
 ## Actionable Suggestions
-1. Boost Repurchase via Review-Based Loyalty Campaigns
-Why it’s #1: Directly solves low retention (3%) and is super low-cost to implement via CRM.
-•	Customers who left a review were 57% more likely to return.
-•	Run a “Review & Save” email campaign: small voucher or discount for those who leave feedback.
-•	Automate this in CRM flows post-delivery.
-👉 Impact: Increases both retention and review volume without increasing CAC.
-________________________________________
-2. Reactivate Dormant Sellers with Incentivized Re-entry
-Why it’s #2: 1/3 of regular sellers are dormant. They're already onboarded = cheap win.
-•	32.59% dormancy rate among regular sellers.
-•	Launch a reactivation program:
-o	30-day zero commission
-o	dashboard badge (e.g., “Returning Seller”)
-o	email nudges via seller CRM
-👉 Impact: Converts silent sellers into active inventory without new seller acquisition cost.
-________________________________________
- 3. Leverage Seasonal Trends like Black Friday with Targeted Category Promotions
-Why it’s #3: The highest platform sales ever (R$1M+) came from November 2017 = proven ROI.
-•	Focus Q4 campaigns on top-converting categories (e.g., Health & Beauty, Watches & Gifts).
-•	Build seasonal landing pages, bundles, or curated picks with seller co-promotion.
-👉 Impact: Drives predictable sales spikes with minimal trial-and-error.
+### 1. **Boost Repurchase via Review-Based Loyalty Campaigns**
+**Why it’s #1**: Directly solves **low retention (3%)** and is super low-cost to implement via CRM.
+
+- Customers who **left a review were 57% more likely to return**
+- Run a **“Review & Save”** email campaign: a small voucher or discount for those who leave feedback
+- Automate this in CRM flows post-delivery
+
+👉 **Impact**: Increases both **retention** and **review volume** without increasing **CAC**
+
+
+
+### 2. **Reactivate Dormant Sellers with Incentivized Re-entry**
+**Why it’s #2**: **1/3 of regular sellers are dormant**. They're already onboarded = cheap win.
+
+- **32.59% dormancy rate** among regular sellers
+- Launch a reactivation program:
+  - **30-day zero commission**
+  - Dashboard badge (e.g., “Returning Seller”)
+  - Email nudges via seller CRM
+
+👉 **Impact**: Converts silent sellers into **active inventory** without **new seller acquisition cost**
+
+
+
+### 3. **Leverage Seasonal Trends like Black Friday with Targeted Category Promotions**
+**Why it’s #3**: The highest platform sales ever (**R$1M+**) came from **November 2017** = proven ROI.
+
+- Focus **Q4 campaigns** on top-converting categories (e.g., **Health & Beauty**, **Watches & Gifts**)
+- Build **seasonal landing pages**, **bundles**, or **curated picks** with seller co-promotion
+
+👉 **Impact**: Drives **predictable sales spikes** with minimal trial-and-error
 
 
 ---
