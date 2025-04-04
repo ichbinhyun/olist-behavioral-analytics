@@ -52,7 +52,7 @@ This **real-world dataset**, collected from a large-scale e-commerce platform be
 
 Below is the Entity Relationship Diagram (ERD) of the cleaned dataset used in this project. Unused tables like geolocation were excluded, and category translations were merged into the products table.
 
-![ERD](./assets/erd.png)
+![ERD](./assets/ERD.png)
 
 ---
 
