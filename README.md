@@ -172,7 +172,10 @@ These KPIs provided a structured foundation for discovering trends, identifying 
 ![Seller Dashboard](./assets/seller_dashboard.PNG)  
 ![Customer Dashboard](./assets/customer_dashboard.PNG)
 
-👉 [View interactive dashboards here](https://app.powerbi.com/) 
+> Due to publishing restrictions and time constraints, the interactive version is not available.  
+> However, you can explore the entire dashboard below:
+
+📄 [Download Report (PDF)](./Behavioral Analytics_Olist_Dashboards.pdf)  
 
 ## 📊 Findings
 
