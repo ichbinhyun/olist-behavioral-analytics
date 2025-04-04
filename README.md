@@ -125,8 +125,45 @@ This seller segmentation helps uncover how different seller types contribute to 
 To evaluate user behavior and platform performance, I established a set of Key Performance Indicators (KPIs) aligned with the problem statements. These KPIs are categorized into three areas: **Sales, Sellers, and Customers.**
 Each metric was designed to offer actionable insights for platform growth, user engagement, and business optimization.
 
+### Sales KPIs
+| KPI Name                         | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **Average Order Value (AOV)**        | Measures the average amount spent per order, indicating revenue efficiency.|
+| **Order Fulfillment Rate**           | Share of delivered orders among all orders, measuring operational reliability.|
+| **Number of Sold Products**          | Total number of product units sold across the platform.                    |
+| **Total Sales by Year & Region**     | Revenue distribution over time and across geographies.                     |
+| **Growth Rate of Product Categories**| Changes between the latest 3 months and the previous 3 months in sales volume by category. |
+| **Sales Trend per Category**         | Time-series performance of each product category.                          |
+| **Annual Sales Trend**               | Macro-level revenue trend across all products and sellers.                 |
+
+
+### Seller KPIs
+| KPI Name                          | Description                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------|
+| **Total Number of Sellers**           | Platform-wide seller count.                                                |
+| **Average Order Value (Seller-Level)**| Average revenue per order by seller.                                       |
+| **Product Category Breadth**          | Number of unique product categories sold by each seller.                   |
+| **Seller Distribution by Region**     | Geographic breakdown of active sellers.                                    |
+| **Top Product Category per Seller**   | Most sold product category per seller.                                     |
+| **Dormant Seller Rate**               | Proportion of sellers who haven’t made sales in the recent months.        |
+| **Consistent Selling Rate**           | Share of sellers with monthly activity in at least 9 of the past 12 months.|
+
+
+### Customer KPIs
+| KPI Name                                 | Description                                                                  |
+|------------------------------------------|------------------------------------------------------------------------------|
+| **Total Number of Customers**                | Count of unique customers across the platform.                              |
+| **Average Order Value (Customer-Level)**     | Average spend per order per customer.                                       |
+| **Repurchase Rate**                          | Share of customers who placed more than one order.                          |
+| **Active Customers Over Time**               | Trend of customers making purchases each year.                              |
+| **Category Preference**                      | Top product categories by customer segment.                                 |
+| **Customer Distribution by Region**          | Geographic breakdown of customer base.                                      |
+| **Payment Preference**                       | Most used payment methods across customers.                                 |
+| **Repurchase Rate by Review Behavior**       | Correlation between review scores and repeat purchase likelihood.           |
+
 
 These KPIs provided a structured foundation for discovering trends, identifying pain points, and developing data-driven recommendations tailored to Olist’s dual-sided platform model.
+
 
 ---
 
