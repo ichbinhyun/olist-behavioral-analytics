@@ -110,9 +110,9 @@ This project followed a structured approach:
 ---
 
 ## Findings
-![Sales Dashboard](./assets/sales_dashboard.png)  
-![Seller Dashboard](./assets/seller_dashboard.png)  
-![Customer Dashboard](./assets/customer_dashboard.png)
+![Sales Dashboard](./assets/sales_dashboard.PNG)  
+![Seller Dashboard](./assets/seller_dashboard.PNG)  
+![Customer Dashboard](./assets/customer_dashboard.PNG)
 
 👉 [View interactive dashboards here](https://app.powerbi.com/)  *(replace with your public Power BI link)*
 
