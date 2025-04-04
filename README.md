@@ -175,7 +175,8 @@ These KPIs provided a structured foundation for discovering trends, identifying 
 > Due to publishing restrictions and time constraints, the interactive version is not available.  
 > However, you can explore the entire dashboard below:
 
-📄 [Download Report (PDF)](./Behavioral Analytics_Olist_Dashboards.pdf)  
+📄 [Download Report (PDF)](./Behavioral_Analytics_Olist_Dashboards.pdf)
+  
 
 ## 📊 Findings
 
