@@ -134,16 +134,16 @@ Each metric was designed to offer actionable insights for platform growth, user 
 | **Total Sales by Year & Region**     | Revenue distribution over time and across geographies.                     |
 | **Growth Rate of Product Categories**| Changes between the latest 3 months and the previous 3 months in sales volume by category. |
 | **Sales Trend per Category**         | Time-series performance of each product category.                          |
-| **Annual Sales Trend**               | Macro-level revenue trend across all products and sellers.                 |
+| **Annual Sales Trend**               | Macro-level sales trend over years                 |
 
 
 ### Seller KPIs
 | KPI Name                          | Description                                                                 |
 |-----------------------------------|-----------------------------------------------------------------------------|
 | **Total Number of Sellers**           | Platform-wide seller count.                                                |
-| **Average Order Value (Seller-Level)**| Average revenue per order by seller.                                       |
-| **Product Category Breadth**          | Number of unique product categories sold by each seller.                   |
-| **Seller Distribution by Region**     | Geographic breakdown of active sellers.                                    |
+| **Average Order Value (Seller-Level)**| Average sales per order by seller.                                       |
+| **Product Category Breadth**          | Number of orders by the most ordered product categories.                   |
+| **Seller Distribution by Region**     | Geographic breakdown of sellers.                                    |
 | **Top Product Category per Seller**   | Most sold product category per seller.                                     |
 | **Dormant Seller Rate**               | Proportion of sellers who haven’t made sales in the recent months.        |
 | **Consistent Selling Rate**           | Share of sellers with monthly activity in at least 9 of the past 12 months.|
@@ -157,8 +157,8 @@ Each metric was designed to offer actionable insights for platform growth, user 
 | **Repurchase Rate**                          | Share of customers who placed more than one order.                          |
 | **Active Customers Over Time**               | Trend of customers making purchases each year.                              |
 | **Category Preference**                      | Top product categories by customer segment.                                 |
-| **Customer Distribution by Region**          | Geographic breakdown of customer base.                                      |
-| **Payment Preference**                       | Most used payment methods across customers.                                 |
+| **Customer Distribution by Region**          | Geographic breakdown of customer.                                      |
+| **Payment Preference**                       | Most used payment methods.                                 |
 | **Repurchase Rate by Review Behavior**       | Correlation between review scores and repeat purchase likelihood.           |
 
 
