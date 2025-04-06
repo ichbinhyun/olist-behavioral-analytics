@@ -91,7 +91,7 @@ Each of these steps laid the foundation for defining KPIs, deriving behavioral i
 
 ## User Segmentation
 ### 1. Customer Segmentation
-Customers were segmented into six distinct groups using rule-based thresholds derived from the data. The segmentation criteria considered **order frequency, total spending, average order value (AOV), and purchasing concentration toward high-performing sellers**. These indicators were selected to reflect purchasing power, loyalty, and product affinity.
+Customers were segmented into five distinct groups using rule-based thresholds derived from the data. The segmentation criteria considered **order frequency, total spending, average order value (AOV), and purchasing concentration toward high-performing sellers**. These indicators were selected to reflect purchasing power, loyalty, and product affinity.
 
 
 | Segment Name         | Criteria                                                                                       | Reasoning                                                                                                           |
