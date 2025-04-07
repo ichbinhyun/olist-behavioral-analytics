@@ -288,7 +288,7 @@ A major spike occurred in **November 2017** due to Black Friday, followed by a d
   → These three states account for **approximately 66.6%** of all customers.
   
   At the city level:
-  - **São Paulo city** had **227 customers**, followed by **Rio de Janeiro** with **158**.
+  - **São Paulo city** had **15,333 customers**, followed by **Rio de Janeiro** with **6,880**.
 
 - **Preferred payment methods** across all customer types:
   - **Credit Card**: 78.34%
