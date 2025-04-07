@@ -302,41 +302,82 @@ This suggests that fostering positive reviews (e.g., through better seller exper
 
 ---
 
-## Actionable Suggestions
-### 1. **Boost Repurchase via Review-Based Loyalty Campaigns**
-**Why it’s #1**: Directly solves **low retention (3%)** and is super low-cost to implement via CRM.
+## Actionable Suggestions for Marketing & CRM Teams
 
-- Customers who **left a review were 57% more likely to return**
-- Run a **“Review & Save”** email campaign: a small voucher or discount for those who leave feedback
-- Automate this in CRM flows post-delivery
+Based on customer and seller behavioral segmentation, the following four strategies are designed to directly address key business challenges around retention, engagement, and product diversity.
 
-👉 **Impact**: Increases both **retention** and **review volume** without increasing **CAC**
+---
 
+### 1. 🗣️ Boost Retention via Review-Driven Loyalty Campaigns
 
+Customers who left reviews had a **57% higher repurchase rate** (3.82% vs. 2.43%), showing a strong correlation between engagement and loyalty.
 
-### 2. **Reactivate Dormant Sellers with Incentivized Re-entry**
-**Why it’s #2**: **1/3 of regular sellers are dormant**. They're already onboarded = cheap win.
+**Suggested Actions:**
+- Offer rewards (e.g. coupons, points) to customers who leave reviews.
+- Send personalized product recommendations based on review behavior.
+- Improve seller-side service quality to encourage more positive reviews.
 
-- **32.59% dormancy rate** among regular sellers
-- Launch a reactivation program:
-  - **30-day zero commission**
-  - Dashboard badge (e.g., “Returning Seller”)
-  - Email nudges via seller CRM
+**Expected Impact:**
+- Higher customer retention rates  
+- Better customer data and feedback loop  
+- Stronger brand trust through improved review visibility
 
-👉 **Impact**: Converts silent sellers into **active inventory** without **new seller acquisition cost**
+---
 
+### 2. 💸 Elevate Regular Customers through AOV-Growth Tactics
 
+Regular customers account for **over 97%** of the customer base, but their AOV is only **R$118.85**. An R$800 increase in AOV could promote them into premium tiers.
 
-### 3. **Leverage Seasonal Trends like Black Friday with Targeted Category Promotions**
-**Why it’s #3**: The highest platform sales ever (**R$1M+**) came from **November 2017** = proven ROI.
+**Suggested Actions:**
+- Promote upsell campaigns: bundle offers, free shipping over threshold, product pairings
+- Segment-based remarketing for popular categories (e.g. Health & Beauty)
+- Introduce loyalty tier upgrades with purchase milestones
 
-- Focus **Q4 campaigns** on top-converting categories (e.g., **Health & Beauty**, **Watches & Gifts**)
-- Build **seasonal landing pages**, **bundles**, or **curated picks** with seller co-promotion
+**Expected Impact:**
+- Increased average order value  
+- Expansion of high-value customer segments  
+- Long-term revenue growth
 
-👉 **Impact**: Drives **predictable sales spikes** with minimal trial-and-error
+---
+
+### 3. 🔄 Reactivate Dormant Sellers & Nurture High-Potential Newcomers
+
+Dormancy among regular sellers is **32.6%**, and their consistency rate is just **27.4%**, while Volume Premium sellers have a **98.7%** consistency rate. This shows room for activation and growth.
+
+**Suggested Actions:**
+- Launch reactivation packages for dormant sellers (e.g. fee waivers, homepage exposure)
+- Track new seller performance and upgrade high performers to Premium tiers
+- Recommend top-performing categories to guide product strategy
+
+**Expected Impact:**
+- Reduced churn on the supply side  
+- More sellers reaching premium performance levels  
+- Improved product availability and platform reliability
+
+---
+
+### 4. 📦 Smart Category Curation: Combine Best-Selling & High-Growth Products
+
+Well-performing categories (e.g. Bed Bath Table, Computer Accessories) and high-growth categories (e.g. Arts & Craftsmanship, Telephony) are often separate. Combining them in curated recommendations can enhance both seller performance and product diversity.
+
+**Suggested Actions:**
+- Recommend a personalized category mix for each seller: proven + emerging categories
+- Display curated suggestions in the Seller Dashboard (data-driven)
+- Run marketing campaigns encouraging sellers to diversify with rising categories
+
+**Expected Impact:**
+- Higher sales through strategic category exposure  
+- Increased category-level diversity across the platform  
+- Enhanced seller satisfaction through targeted, actionable guidance
+
 
 
 ---
 
 ## Conclusion
-This project applied behavioral analytics to a real-world e-commerce dataset to uncover key insights around customer retention, seller performance, and sales dynamics. By aligning data-driven segmentation and KPIs with targeted business actions, the analysis provides a practical roadmap for improving engagement and growth on a dual-sided marketplace like Olist.
+
+This project conducted behavioral analysis on a real-world e-commerce dataset to uncover actionable insights across customer retention, seller engagement, and product strategy. Through detailed segmentation and KPI-based evaluation, we identified clear patterns in user behavior, from the dominance of low-AOV regular customers to the strong sales consistency of premium sellers.
+
+Most importantly, the findings were translated into four strategic, high-impact recommendations tailored for Marketing and CRM teams. These include review-based loyalty loops, AOV-growth pathways, seller reactivation and nurturing frameworks, and smart product category curation — all aimed at strengthening Olist’s dual-sided marketplace model.
+
+By bridging data with business strategy, this analysis offers a focused, scalable roadmap to drive sustained growth, improve user lifecycle management, and optimize supply-demand alignment on the platform.
