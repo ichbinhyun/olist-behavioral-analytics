@@ -204,20 +204,45 @@ Each metric was designed to offer actionable insights for platform growth, user 
 
 ---
 
-### 2. Seller Analysis: How can we support sellers to stay active and sell consistently?
+## 🧾 Seller Overview: Seller Performance: Who drives sales, and how can we support consistent growth?
 
-- The marketplace consisted of **3,095 active sellers**, classified into **regular**, **volume_premium**, and **highend_premium** types.
-- **Volume_premium** sellers had the most reliable performance:
-  - Consistent selling rate: **98.70%**  
-  - Dormancy rate: only **3.9%**  
-  - High presence in fast-moving categories like **Bed & Bath** and **Sports & Leisure**
-- **Highend_premium** sellers specialized in **Furniture & Decor**, with **AOV above R$250**, but showed slightly lower consistency (**86.84%**) and **13.16% dormancy rate**, potentially due to niche product cycles.
-- In contrast, **regular sellers** suffered from both **low consistency (27.37%)** and **high dormancy (32.59%)**, suggesting lack of engagement or operational capacity.
-- **Seller distribution** was heavily centralized in **SP**, indicating a potential need to diversify **supply-side participation** across regions.
+- A total of **3,095 sellers** were active on the platform:
+  - **78 Highend Premium**
+  - **77 Volume Premium**
+  - **2,940 Regular sellers**
+  
+- The overall **Average Order Value (AOV)** across all sellers was **R$137.04**. When broken down by seller type:
+  - **Highend Premium**: R$327.64
+  - **Volume Premium**: R$102.12
+  - **Regular**: R$117.41  
+  → This suggests Highend Premium sellers focus on fewer but higher-priced items, while Volume Premium sellers sell low-cost items at scale. If Highend Premium sellers can increase their volume, they hold strong potential to contribute more significantly to overall revenue.
 
-**✅ Insight:**  
-Consistent and active sellers are clearly concentrated in **premium segments**.  
-**Support programs** (e.g., incentives, logistics, visibility) should **prioritize regular sellers** to reduce dormancy and increase platform reliability.
+- Highend Premium sellers operated in **53 categories**, Volume Premium in **57**, and Regular sellers across **72 categories**.
+  → Although Regular sellers cover the widest range, Premium sellers showed more strategic diversity. With high-quality products, they may unlock greater revenue growth across select categories.
+
+- The **top-performing seller type** in terms of monthly revenue was Volume Premium, which peaked at **R$294,317 in November 2017**, aligning with the platform-wide Black Friday sales spike.
+
+- Each seller type showed distinct category preferences based on total order count:
+  - **Highend Premium**: Watches for Gifts, Office Furniture, Health & Beauty, Computer Accessories, Cool Stuff  
+  - **Volume Premium**: Bed Bath Table, Furniture Decor, Computer Accessories, Garden Tools  
+  - **Regular**: Sports & Leisure, Housewares, Health & Beauty, Furniture Decor, Bed Bath Table  
+  → These differences highlight the varying customer bases per seller type. Cross-type categories like **Health & Beauty** and **Computer Accessories** show strong universal demand and are ideal candidates for focused promotion or quality enhancement strategies.
+
+- Geographically, sellers were highly concentrated in **São Paulo (SP)**, which had **over 1,700 sellers**, followed by **Paraná (PR)** and **Minas Gerais (MG)**. At the city level, **São Paulo city alone** had more than **700 active sellers**, indicating strong supply-side centralization.
+
+- The **dormancy rate** (inactive sellers) varied significantly:
+  - **Highend Premium**: 7.69%
+  - **Volume Premium**: 3.90%
+  - **Regular**: 32.59%  
+  → While Premium sellers show relatively stable activity, nearly **1 in 3 Regular sellers** are inactive, revealing a need for targeted reactivation programs. Reducing even a portion of this dormancy could significantly stabilize the platform's sales base.
+
+- In terms of **consistency (ongoing sales activity)**:
+  - **Volume Premium**: 98.70% (highest)
+  - **Highend Premium**: 86.84%
+  - **Regular**: only 27.37%  
+  → Increasing the consistency of Regular sellers and strategically developing high-potential ones into **Volume Premium** status could offer strong long-term returns and reduce volatility.
+
+
 
 ---
 
