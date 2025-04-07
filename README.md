@@ -166,7 +166,7 @@ Each metric was designed to offer actionable insights for platform growth, user 
 ---
 
 ## Findings
-![Sales Dashboard](./assets/sales_dashboar.PNG)  
+![Sales Dashboard](./assets/sales_dashboard.PNG)  
 ![Seller Dashboard](./assets/seller_dashboard.PNG)  
 ![Customer Dashboard](./assets/customer_dashboard.PNG)
 
