@@ -246,20 +246,58 @@ Each metric was designed to offer actionable insights for platform growth, user 
 
 ---
 
-### 3. Customer Behavior: Who are the customers, and how can we improve retention?
+## 👥 3. Customer Overview: Who are the customers, and how can we improve retention?
 
-- The platform attracted **99K unique customers**, mostly from **SP (41.7K)**, **RJ (12.8K)**, and **MG (11.6K)**.
-- **Average order value per customer** was **R$141.61**, slightly below the global AOV.
-- Only **3.00% of customers repurchased**, showing weak retention.
-  - However, users who **left a review** had a **57% higher repurchase rate** (**3.82% vs 2.43%**) — signaling that **engagement through feedback loops impacts loyalty**.
-- Customers were segmented into **five types**:  
-  - `heavy_regular`, `volume_premium`, `highend_premium`, `one_time_highend`, and `regular`
-- **Premium segments** leaned toward **high-end categories** like **Health & Beauty**, **Watches**, and **Decor**, while **regular customers** had broader distribution across products.
-- **Monthly active users** steadily increased from **<1K in late 2016** to **~6K in early 2018**, indicating **organic platform growth**.
+- A total of **99,395 unique customers** placed at least one order on the platform.
 
-**✅ Insight:**  
-**Retention** is a core challenge.  
-Integrating **incentives for feedback**, launching **loyalty campaigns**, and **personalizing product recommendations** based on past behavior could significantly improve repurchase behavior, especially for **regular or dormant users**.
+- Customers were segmented into five types based on order value and frequency:
+
+| Customer Type       | Count   |
+|---------------------|---------|
+| Highend Premium     | 41      |
+| Volume Premium      | 112     |
+| One-time Highend    | 487     |
+| Heavy Regular       | 1,907   |
+| Regular             | 96,848  |
+
+- The **overall Average Order Value (AOV)** per customer was **R$141.61**, but this varied widely by type:
+
+| Customer Type       | AOV (R$)  |
+|---------------------|-----------|
+| Highend Premium     | 1,868.53  |
+| Volume Premium      | 978.81    |
+| One-time Highend    | 1,597.22  |
+| Heavy Regular       | 923.26    |
+| Regular             | 118.85    |
+
+→ The majority of customers (Regular) tend to purchase lower-priced items. In contrast, **Highend Premium** and **One-time Highend** customers show strong preferences for high-value products.  
+**Volume Premium** customers buy lower-priced items compared to Highend buyers but do so more frequently, contributing significantly to long-term revenue.  
+The **R$800+ gap** between Regular and Heavy Regular customers suggests an opportunity to **elevate Regular customers** through targeted AOV-boosting strategies — ultimately guiding them toward Premium tiers.
+
+- The **repurchase rate** across all customers is just **3.00%**, highlighting a critical retention challenge.  
+Even among **Heavy Regulars**, the repurchase rate is **only 8.66%**, suggesting that most users treat Olist as a one-time shopping destination.  
+Improving this metric requires positioning Olist as a **reliable and diverse platform** — not just for single purchases but for long-term shopping.
+
+- **Monthly active customers** showed a steady upward trend, despite seasonal fluctuations.  
+A major spike occurred in **November 2017** due to Black Friday, followed by a dip in December. However, activity recovered to similar levels in January 2018 and continued growing.
+
+- **Regional customer distribution**:
+  - **São Paulo (SP)**: 41,719  
+  - **Rio de Janeiro (RJ)**: 12,849  
+  - **Minas Gerais (MG)**: 11,627  
+  → These three states account for **approximately 66.6%** of all customers.
+  
+  At the city level:
+  - **São Paulo city** had **227 customers**, followed by **Rio de Janeiro** with **158**.
+
+- **Preferred payment methods** across all customer types:
+  - **Credit Card**: 78.34%
+  - Followed by **Boleto**, **Voucher**, and **Debit Card**  
+  → Payment preferences were consistent regardless of customer segment.
+
+- Customers who left a review had a **repurchase rate of 3.82%**, compared to **2.43%** for those who didn’t — a **~1.5% gap**.  
+This suggests that fostering positive reviews (e.g., through better seller experience and support) could **encourage more loyalty** via a virtuous feedback loop.
+
 
 
 ---
