@@ -162,8 +162,6 @@ Each metric was designed to offer actionable insights for platform growth, user 
 | **Repurchase Rate by Review Behavior**       | Correlation between review scores and repeat purchase likelihood.           |
 
 
-These KPIs provided a structured foundation for discovering trends, identifying pain points, and developing data-driven recommendations tailored to Olist’s dual-sided platform model.
-
 
 ---
 
@@ -172,7 +170,7 @@ These KPIs provided a structured foundation for discovering trends, identifying 
 ![Seller Dashboard](./assets/seller_dashboard.PNG)  
 ![Customer Dashboard](./assets/customer_dashboard.PNG)
 
-> Due to publishing restrictions and time constraints, the interactive version is not available.  
+> Due to a publishing restriction, the interactive version is not available.  
 > However, you can explore the entire dashboard below:
 
 📄 [Download Report (PDF)](./Behavioral_Analytics_Olist_Dashboards.pdf)
