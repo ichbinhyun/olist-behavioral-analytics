@@ -178,17 +178,29 @@ Each metric was designed to offer actionable insights for platform growth, user 
 
 ## 📊 Findings
 
-### 1. Sales Performance: How do we increase sales and ensure product variety?
+## 📦 Sales Performance: How do we increase sales and ensure product variety?
 
-- Between Sep 2016 and Aug 2018, the platform recorded a total of **R$15.4M** in sales across **113K products**, with a solid **AOV (Average Order Value)** of **R$159.85** and an outstanding **Order Fulfillment Rate** of **97.02%**.
-- The most significant sales spike occurred in **November 2017**, where monthly sales exceeded **R$1M** for the first time, clearly indicating the impact of **Black Friday campaigns**.
-- Sales were geographically concentrated, with **São Paulo (CE)** alone generating over **R$266K**, followed by **Pernambuco (PE)** (R$212K) and **Paraná (PR)** (R$181K).
-- The platform supports a **diverse product catalog (74 categories)**, and top categories such as **Health & Beauty**, **Watches & Gifts**, and **Bed & Bath** consistently outperformed others.
-- Category-level growth (e.g., **Telephony** from 57.93K → 63.07K) shows healthy **consumer demand diversification**, supporting product variety without relying on underperforming items.
+- Between **Sep 2016 and Aug 2018**, Olist recorded a total of **R$15,414,349** in sales across **110,125 product units**.
+- The platform achieved a solid **Average Order Value (AOV)** of **R$159.85** and an excellent **Order Fulfillment Rate** of **97.02%**.
+- ⚠️ The number of orders in **2016** was significantly lower (**280 orders**) compared to **45,683 in 2017** and **54,739 in 2018**, suggesting possible ETL issues or data limitations.
+- Sales steadily increased and remained above **R$820K/month** throughout 2018.
+- The most significant sales spike occurred in **November 2017**, reaching nearly **R$980K**, likely driven by **Black Friday campaigns**.
+- Sales were geographically concentrated:
+  - **SP, RJ, and MG** combined generated **R$9.63M** in sales — approximately **62.5%** of the total.
+  - **São Paulo city** alone contributed **R$2.1M**, followed by **Rio de Janeiro** with **R$1.1M**, showing a high sales concentration in SP.
+- Out of **74 product categories**, the top-selling ones were:
+  - **Bed Bath Table**
+  - **Computer Accessories**
+  - **Health & Beauty**
+  - **Sports & Leisure**
+  - **Watches for Gifts**
+- Among them, **Health & Beauty** showed the most consistent upward trend, peaking at **R$119,391 in Aug 2018**.
+- When comparing **Q3 2018 (Jun–Aug)** to **Q2 (Mar–May)**:
+  - The **highest growth rate** was observed in **Arts & Craftsmanship** with over **1,371%** growth, albeit from a small base.
+  - Other fast-growing categories included **Party Supplies, Construction Tools, Garden Tools, and Food**. These segments still represent a small portion of overall revenue but signal **early-stage consumer interest**.
+  - **Telephony** stood out as the only category that combined **both high growth (8.9%) and strong volume (R$63K in Q3)**, making it a compelling area for further expansion.
+  - Additional solid performers included **Lights for Construction, Living Room Furniture, Agro Industry & Commerce**, and **Fixed Telephony**.
 
-**✅ Insight:**  
-A clear sales peak aligns with known seasonal patterns (e.g., **Black Friday**), emphasizing the importance of **campaign-driven traffic**.  
-Additionally, maintaining **high-performing categories** while filtering **low-ROI inventory** supports a **balanced product strategy**.
 
 ---
 
