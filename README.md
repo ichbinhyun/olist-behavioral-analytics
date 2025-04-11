@@ -46,6 +46,10 @@ Olist is a Brazilian e-commerce platform that connects small and medium-sized se
 ---
 
 ## About Dataset
+
+![ERD](./assets/ERD.png)
+
+
 This **real-world dataset**, collected from a large-scale e-commerce platform between 2016 and 2018, contains over 100,000 orders and provides rich insights into consumer behavior, seller performance, and operational dynamics. It serves as a strong foundation for behavioral analytics, user segmentation, and performance benchmarking on a dual-sided marketplace.
 
 👉 [Original dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
@@ -71,8 +75,6 @@ To replicate this project:
    - `04. KPIs & Customer Segmentation.sql`
 5. For dashboards, refer to `Behavioral_Analytics_Olist_Dashboards.pdf`
 
-
-![ERD](./assets/ERD.png)
 
 ---
 
