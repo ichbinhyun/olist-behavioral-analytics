@@ -58,6 +58,19 @@ To run this project, please download the dataset from the Kaggle link above and 
 Unused tables such as geolocation were excluded for clarity. The product_category_name_translation table was not used as a separate entity, but its data was fully merged into the products table to include English category names.  
 Additionally, the order_reviews table was cleaned to remove duplicated or incomplete entries, and its primary key was redefined from a composite of review_id and order_id to a single unique key: review_id.
 
+### 🔧 How to Run This Project
+
+To replicate this project:
+
+1. Download the dataset from the Kaggle link above.
+2. Place the CSVs in a folder named `/dataset`.
+3. Run the Python notebook: `01. Quick Data Understanding & EDA.ipynb`
+4. Then, execute the SQL scripts in the following order:
+   - `02. Data Understanding.sql`
+   - `03. EDA & Data Wrangling.sql`
+   - `04. KPIs & Customer Segmentation.sql`
+5. For dashboards, refer to `Behavioral_Analytics_Olist_Dashboards.pdf`
+
 
 ![ERD](./assets/ERD.png)
 
