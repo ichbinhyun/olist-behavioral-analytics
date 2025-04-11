@@ -50,7 +50,12 @@ This **real-world dataset**, collected from a large-scale e-commerce platform be
 
 👉 [Original dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-Unused tables such as geolocation were excluded for clarity. The product_category_name_translation table was not used as a separate entity, but its data was fully merged into the products table to include English category names.
+**License Notice:**  
+This dataset is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), which prohibits redistribution.  
+Accordingly, the dataset is **not included** in this repository.  
+To run this project, please download the dataset from the Kaggle link above and place the relevant files into a local `/dataset` folder.
+
+Unused tables such as geolocation were excluded for clarity. The product_category_name_translation table was not used as a separate entity, but its data was fully merged into the products table to include English category names.  
 Additionally, the order_reviews table was cleaned to remove duplicated or incomplete entries, and its primary key was redefined from a composite of review_id and order_id to a single unique key: review_id.
 
 
