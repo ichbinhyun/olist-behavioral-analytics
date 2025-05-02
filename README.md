@@ -20,7 +20,7 @@
 ---
 
 ## Summary
-This project analyzes user behavior on the Olist e-commerce platform by segmenting both customers and sellers, calculating key performance indicators (KPIs), and uncovering actionable insights to address major business challenges. Using SQL, Python, and Power BI, the analysis identifies low repurchase rates, high seller dormancy, and category performance imbalances as core issues. Through a structured data-driven approach, the report proposes targeted CRM and marketing strategies such as review-triggered loyalty campaigns and seller reactivation programs to enhance retention, drive sales, and optimize platform efficiency.
+This project analyzes **user behavior** on the Olist e-commerce platform by **segmenting both customers and sellers**, calculating key performance indicators (KPIs), and uncovering actionable insights to address major business challenges. Using **SQL, Python, and Power BI**, the analysis identifies low repurchase rates and high seller dormancy as core issues. Through a structured data-driven approach, the report proposes targeted **CRM and marketing strategies** such as review-triggered loyalty campaigns and seller reactivation programs to enhance retention, drive sales, and optimize platform efficiency.
 
 ---
 
@@ -29,21 +29,21 @@ I first came across Olist, an e-commerce platform based in Brazil, through an op
 
 My goal was to understand who the real customers are behind this platform: not just in demographics, but in behavior. I wanted to segment users based on how they interact and engage.
 
-Because that clarity is where real marketing and CRM strategy begins. If we can understand behavior patterns, we can optimize not only marketing or CRM campaigns but also a core business strategy.
+That clarity is where real marketing and CRM strategy begins. If we can understand behavior patterns, we can optimize not only marketing or CRM campaigns but also a core business strategy.
 
-This project wasn’t just about running analyses. It was about doing the most foundational thing possible in digital commerce: defining who your customer actually is.
+This project wasn’t just about running analyses. It was about doing the most foundational thing possible in digital commerce: **defining who your customer actually is**.
 
 ---
 
 ## Problem Statement
 This project’s problem statement focuses on **analyzing the behavioral patterns** of Olist’s **core users (customers and sellers)** and segmenting them in a meaningful way. Furthermore, it aims to identify actionable insights that support long-term platform growth by enhancing seller engagement, increasing customer retention, and optimizing product variety to meet both supply and demand effectively.
 
-- Who are the customers and sellers?
-- How are their behaviors?
-- How can we increase the number of active sellers on the platform?
-- How can we increase sellers' consistent activity and customer retention?
-- How can we help sellers increase their sales performance?
-- How can we ensure product variety that benefits both sellers and customers, without pushing products that don’t sell?
+- **Who are the customers and sellers?**
+- **How are their behaviors?**
+- **How can we increase the number of active sellers on the platform?**
+- **How can we increase sellers' consistent activity and customer retention?**
+- **How can we help sellers increase their sales performance?**
+- **How can we ensure product variety that benefits both sellers and customers, without pushing products that don’t sell?**
 
 ---
 
@@ -64,7 +64,7 @@ Olist is a Brazilian e-commerce platform that connects small and medium-sized se
 ![ERD](./assets/ERD.png)
 
 
-This **real-world dataset**, collected from a large-scale e-commerce platform between 2016 and 2018, contains over 100,000 orders and provides rich insights into consumer behavior, seller performance, and operational dynamics. It serves as a strong foundation for behavioral analytics, user segmentation, and performance benchmarking on a dual-sided marketplace.
+This **real-world dataset**, collected from a large-scale e-commerce platform between 2016 and 2018, contains over 100,000 orders and provides insights into consumer behavior, seller performance, and operational dynamics. It serves as a strong foundation for behavioral analytics, user segmentation, and performance benchmarking on a dual-sided marketplace.
 
 👉 [Original dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
@@ -215,12 +215,12 @@ Each metric was designed to offer actionable insights for platform growth, user 
 ## 📦 Sales Performance: How do we increase sales and ensure product variety?
 
 - Between **Sep 2016 and Aug 2018**, Olist recorded a total of **R$15,414,349** in sales across **110,125 product units**.
-- The platform achieved a solid **Average Order Value (AOV)** of **R$159.85** and an excellent **Order Fulfillment Rate** of **97.02%**.
+- The platform achieved a solid **Average Order Value (AOV)** of **R$159.85** and a high **Order Fulfillment Rate** of **97.02%**.
 - ⚠️ The number of orders in **2016** was significantly lower (**280 orders**) compared to **45,683 in 2017** and **54,739 in 2018**, suggesting possible ETL issues or data limitations.
 - Sales steadily increased and remained above **R$820K/month** throughout 2018.
 - The most significant sales spike occurred in **November 2017**, reaching nearly **R$980K**, likely driven by **Black Friday campaigns**.
 - Sales were geographically concentrated:
-  - **SP, RJ, and MG** combined generated **R$9.63M** in sales — approximately **62.5%** of the total.
+  - **SP, RJ, and MG** combined generated **R$9.63M** in sales that is approximately **62.5%** of the total.
   - **São Paulo city** alone contributed **R$2.1M**, followed by **Rio de Janeiro** with **R$1.1M**, showing a high sales concentration in SP.
 - Out of **74 product categories**, the top-selling ones were:
   - **Bed Bath Table**
@@ -282,7 +282,7 @@ Each metric was designed to offer actionable insights for platform growth, user 
 
 ## 👥 3. Customer Overview: Who are the customers, and how can we improve retention?
 
-- A total of **99,395 unique customers** placed at least one order on the platform.
+- A total of **96,054 unique customers** placed at least one order on the platform.
 
 - Customers were segmented into five types based on order value and frequency:
 
