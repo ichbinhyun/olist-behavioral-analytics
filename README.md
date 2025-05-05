@@ -282,7 +282,7 @@ Each metric was designed to offer actionable insights for platform growth, user 
 
 ## 👥 3. Customer Overview: Who are the customers, and how can we improve retention?
 
-- A total of **96,054 unique customers** placed at least one order on the platform.
+- A total of **90,305 unique customers** placed at least one order on the platform.
 
 - Customers were segmented into five types based on order value and frequency:
 
