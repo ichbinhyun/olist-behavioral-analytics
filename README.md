@@ -1,5 +1,20 @@
 # Behavioral Analytics Across Users on Olist E-Commerce Platform
 
+---
+
+## 📌 A Little Note Before You Dive In
+
+Dear lovely friends who dropped by with curiosity (and probably caffeine in your veins),
+
+Just a heads-up: the SQL and Python code files are currently under revision to make them more readable, elegant, and slightly less like ancient runes.
+
+✨ So if you're feeling brave, feel free to explore them, but I wouldn’t *highly* recommend it unless you're fluent in chaos. The good news?  
+This README is your best friend for now. Everything you need to understand the project is right here. Cleaner and shinier code is on the way!
+
+Thanks for your patience and interest 🙏  
+– Yeonghyeon Sean Kang
+
+
 ## 📑 Table of Contents
 - [Summary](#summary)
 - [Motivation](#motivation)
